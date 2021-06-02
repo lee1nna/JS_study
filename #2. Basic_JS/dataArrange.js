@@ -14,20 +14,27 @@ const hannaInfo = {
 console.log(hannaInfo);
 console.log(hannaInfo.name);
 
+console.log(Info);
+
 // array inside object
+const foodInfo = [
+    {
+        name:"kimchi", 
+        fatty: false
+    },
+    {
+        name:"cheese", 
+        fatty: true
+    }
+];
+
+console.log(foodInfo[0]);
+console.log(foodInfo[0].name);
+
 // object inside array
-const Info = {
-    movies: ["Beggin Again", "Oldboy"],
-    food: [
-        {
-            name:"kimchi", 
-            fatty: false
-        },
-        {
-            name:"cheese", 
-            fatty: true
-        }
-    ]
+const movieInfo = {
+    movie: ["Begin Again", "Oldboy"]
 };
 
-console.log(Info);
+console.log(movieInfo.movie);
+console.log(movieInfo.movie[0]);
