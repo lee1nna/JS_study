@@ -6,4 +6,4 @@
 
 - Calculator
 - To-do List
-- react basic
+- React basic
