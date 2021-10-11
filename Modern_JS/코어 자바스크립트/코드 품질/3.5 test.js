@@ -13,4 +13,11 @@ describe("pow", function () {
   });
 
   // describe와 it을 사용해 아래에 더 많은 테스트를 추가할 수 있다.
+  it("n이 음수일 때 결과는 NaN 입니다.", function () {
+    assert.isNaN(pow(2, -1));
+  });
+
+  it("n이 정수가 아닐 때 결과는 NaN 입니다.", function () {
+    asswer.isNaN(pow(2, 1.5));
+  });
 });
